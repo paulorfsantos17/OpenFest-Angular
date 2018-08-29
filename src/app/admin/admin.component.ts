@@ -9,7 +9,7 @@ import {EventService} from './event.service'
 })
 export class AdminComponent implements OnInit {
 
-  constructor( private eventService:) { }
+  constructor( private eventService: EventService) { }
 
   ngOnInit() {
   }

@@ -5,6 +5,10 @@ export class EventService {
 	}
 
 	insertEvent(){
+
+	}
+
+	ngOnInit(){
 		
 	}
 
