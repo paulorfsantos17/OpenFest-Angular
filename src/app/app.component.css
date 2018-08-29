@@ -1,0 +1,159 @@
+.cabecario{
+
+	 background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+
+	
+}
+
+.cabecario h2{
+	color:#b4c2fe ;
+}
+
+.cabecario h6{
+	color:#b4c2fe;
+}
+
+.event{
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 600px;
+	height: 180px;
+	background-color: #ffffff;
+	padding-left: 20px;
+	padding-top:10px;
+	margin-left: 45px;
+	margin-bottom: 10px;
+
+	border-radius:2px;
+}
+
+.box-conatiner-event{
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+img{
+	width: 200px;
+	height:150px;
+	margin-left:2px;
+	margin-top: 4px;
+	float:left;
+	border-radius:2px;
+}
+
+.container-color{
+	background-color: #f2f2f2;
+}
+
+.btn-position{
+	float:right;
+}
+.box-image{
+	margin: 4px;
+	width: 220px;
+	height:170px;
+	display: block;
+	float:left;
+
+}
+
+.info-box{
+	
+	margin-left: 220px;
+	width: 350px;
+	height:170px;
+
+}
+
+.roda-pe{
+	margin-left: 70px;
+}
+ .main-footer{
+
+ 	background: #fff;
+    padding: 15px;
+    color: #444;
+    border-top: 1px solid #d2d6de
+ }
+.res-position{
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+
+.info-date-reg{
+	padding: 30px;
+	width: 500px;
+	height: 700px;
+	margin-left: 350px;
+	margin-right: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	border: solid #dcd6da 2px;
+	 box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 8px rgba(0, 0, 0, 0.19);
+	border-radius:5px;
+}
+.event-container{
+	margin-top: 10px;
+	background-color: #ffffff;
+	
+	height: 250px;
+	border-radius: 5px;
+
+}
+
+.info-container{
+	margin-left: 430px;
+}
+.img-container{
+	height: 240px;
+	width: 400px;
+	float:left;
+}
+
+.box-info-ingresso{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	width: 100%;
+	
+	
+}
+
+.box-info-type{
+	padding-bottom: 50px;
+	padding-left:0px;
+	width: 100%;
+	height:200px;
+	border-bottom: solid #cccccc 1px ;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+
+}
+
+.img-type-ingresso{
+	margin-left: 0px;
+	height:190px;
+	width: 300px;
+	float: left;
+
+}
+
+.info-ingresso{
+	width:1000px;
+}
+
+.position-btn-card{
+	float:right;
+	margin-right: 10px;
+	margin-bottom: ;
+
+}
