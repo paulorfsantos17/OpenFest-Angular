@@ -1,20 +1,20 @@
  <div class="container">
  <h2>Horizontal form</h2>
-  <form class="form-horizontal" action="/action_page.php">
-  
+ {{form.value | json}}
+  <form class="form-horizontal" novalidate #form="ngForm" >
 
-
-<label class="control-label col-sm-2">Title:</label>
+<label class="control-label col-sm-2" >Title:</label>
       
-      <input type="text" name="title" class="col-sm-offset-2 col-sm-10"><br>
+      <input type="text" name="title" class="col-sm-offset-2 col-sm-10" ngModel name="nome"><br>
       
       <label class="control-label col-sm-2">Date:</label>
-      <input type="date" name="date"  class="col-sm-offset-2 col-sm-10"><br>
+      <input type="date" name="date"  ngModel  class="col-sm-offset-2 col-sm-10"><br>
 
-      <label class="control-label col-sm-2">Hours:</label>
-      <input type="time" name="hours"  class="col-sm-offset-2 col-sm-10"><br>
-      <label class="control-label col-sm-2">Overview:</label>
-      <input type="textarea" name="overview"  class="col-sm-offset-2 col-sm-10"><br><br>
-      <input type="file" name="img"  class="btn btn-default">
+      <label class="control-label col-sm-2"  >Hours:</label>
+      <input type="time" name="hours"  ngModel class="col-sm-offset-2 col-sm-10"><br>
+      <label class="control-label col-sm-2" >Overview:</label>
+      <input type="textarea"  ngModel name="descricao" class="col-sm-offset-2 col-sm-10"><br><br>
+      <input type="file" name="img"   class="btn btn-default" ngModel>
+      <button type="button" (click)="checkform(form.value)"> inserir</button>
 </form>
 </div>
